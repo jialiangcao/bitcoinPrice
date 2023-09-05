@@ -7,7 +7,7 @@ const formattedDate = date.toDateString();
 
 function App() {
   const [bitcoinPrice, setBitcoinPrice] = useState(null);
-  const apiKey = "C241E351-9261-4911-81EE-64E669AF8019";
+  const apiKey = "";
   /* Insert coinapi key */
 
   useEffect(() => {
